@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name= "username" value="Swapnil"></parameter>
+    <parameter name= "password" value="Swapnil12345"></parameter>
+  
+  <classes>
+  	 <class name="com.TestNG.ParameterizeFile"/>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

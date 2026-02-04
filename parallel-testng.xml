@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="classes" name="Suite"  thread-count="5">
+  <test  name="FacebookTest">
+    <classes>
+    
+      <class name="com.TestNG_Execution.FacebookMainTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="OHRMTest">
+    <classes>
+      <class name="com.TestNG_Execution.OHRM_main_Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
